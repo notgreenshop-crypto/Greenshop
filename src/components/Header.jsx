@@ -10,7 +10,7 @@ const Header = ({ searchQuery, setSearchQuery, cart, setCurrentPage, facebookPag
             className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent cursor-pointer hover:scale-105 transition-transform"
             onClick={() => setCurrentPage('home')}
           >
-            FENZO
+            Green Shop
           </h1>
           
           <div className="flex-1 max-w-md">

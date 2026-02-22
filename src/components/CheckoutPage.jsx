@@ -44,7 +44,7 @@ const mergeCartItems = (cart, settings) => {
 // ✅ Generate WhatsApp order message (merged view)
 const generateOrderMessage = (cart, settings, totals, checkoutData) => {
   const mergedCart = mergeCartItems(cart, settings);
-  let msg = `*New Order from Fenzo*\n\n`;
+  let msg = `*New Order from Green Shop*\n\n`;
 
   mergedCart.forEach((item, i) => {
     const base = Number(item.price || 0);
